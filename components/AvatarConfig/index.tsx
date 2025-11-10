@@ -55,11 +55,15 @@ export const AvatarConfig: React.FC<AvatarConfigProps> = ({
   return (
     <div className="relative flex flex-col gap-4 w-[550px] py-8 max-h-full overflow-y-auto px-4">
       <Field label="Custom Knowledge Base ID">
-        <Input
+        {/* <Input
           placeholder="Enter custom knowledge base ID"
-          value={config.knowledgeId}
+          value="f1e7dd27dae14a0fb46683db7406f61a"
+          
+          // value={config.knowledgeId}
           onChange={(value) => onChange("knowledgeId", value)}
-        />
+          
+        /> */}
+        <div className="text-zinc-100">{config.knowledgeId || "f1e7dd27dae14a0fb46683db7406f61a"}</div>
       </Field>
       <Field label="Avatar ID">
         <Select
