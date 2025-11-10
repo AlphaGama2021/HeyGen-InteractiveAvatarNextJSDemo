@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <>
       <div className="flex flex-row justify-between items-center w-[1000px] m-auto p-6">
-        <div className="flex flex-row items-center gap-4">
+        {/* <div className="flex flex-row items-center gap-4">
           <Link href="https://app.heygen.com/" target="_blank">
             <HeyGenLogo />
           </Link>
@@ -17,8 +17,8 @@ export default function NavBar() {
               HeyGen Interactive Avatar SDK NextJS Demo
             </p>
           </div>
-        </div>
-        <div className="flex flex-row items-center gap-6">
+        </div> */}
+        {/* <div className="flex flex-row items-center gap-6">
           <Link
             href="https://labs.heygen.com/interactive-avatar"
             target="_blank"
@@ -52,7 +52,7 @@ export default function NavBar() {
             <GithubIcon className="text-default-500" />
             SDK
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );
